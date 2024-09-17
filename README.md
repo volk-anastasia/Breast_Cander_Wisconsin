@@ -54,7 +54,7 @@ Total metrics:
 ![image](https://github.com/user-attachments/assets/d015464f-215f-4285-8acd-f1ba329e305d)
 
 
-**`DecisionTreeClassifier`**
+**`Decision Tree`**
 
 Total metrics:
 |            | Test (default) | Test (GridSearchCV) |
