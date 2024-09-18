@@ -24,25 +24,25 @@ The features:
 11. symmetry
 12. fractal dimension ("coastline approximation" - 1)
 
-![image](https://github.com/user-attachments/assets/7a787d30-14f4-4731-b530-74d9a32af3ec)
+![image](pictures\correlation.png)
 
 ### Different models
 
 **`K-Nearest Neighbors`**
 
+![image](pictures\neighbors.png)
 Total metrics:
-|            | Test (default) | Test (GridSearchCV) | Test (7 neighbors) |
-|------------|----------------|---------------------|--------------------|
-|  Accuracy: | 0.9649         | 0.9591              | 0.9649             |
-| Precision: | 0.9524         | 0.9365              | 0.9524             |
-|    Recall: | 0.9524         | 0.9516              | 0.9524             |
-|  F1_score: | 0.9524         | 0.9440              | 0.9524             |
-
-![image](https://github.com/user-attachments/assets/dffc51f9-4ffd-4ce1-893b-2f16574590f9)
+|            | Test (default) | Test (7 neighbors) |
+|------------|----------------|--------------------|
+|  Accuracy: | 0.9649         | 0.9649             |
+| Precision: | 0.9524         | 0.9524             |
+|    Recall: | 0.9524         | 0.9524             |
+|  F1_score: | 0.9524         | 0.9524             |
 
 
 **`Logistic Regression`**
 
+![image](pictures\logreg.png)
 Total metrics:
 |            | Test (default) | Test (GridSearchCV) |
 |------------|----------------|---------------------|
@@ -50,8 +50,6 @@ Total metrics:
 | Precision: | 0.9841         | 0.9841              |
 |    Recall: | 0.9538         | 0.9538              |
 |  F1_score: | 0.9688         | 0.9688              |
-
-![image](https://github.com/user-attachments/assets/d015464f-215f-4285-8acd-f1ba329e305d)
 
 
 **`Decision Tree`**
@@ -61,14 +59,8 @@ Total metrics:
 |------------|----------------|---------------------|
 |  Accuracy: | 0.92           | 0.95                |
 
-
-**`XGBoost`**
-
-Total metrics:
-|            | Test (default) | Test (GridSearchCV) |
-|------------|----------------|---------------------|
-|  Accuracy: | 0.96           | 0.95                |
-
+Feature importance:
+![image](pictures\destree.png)
 
 ### Best model
 
