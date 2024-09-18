@@ -24,13 +24,13 @@ The features:
 11. symmetry
 12. fractal dimension ("coastline approximation" - 1)
 
-![image](pictures\correlation.png)
+![image](pictures/correlation.png)
 
 ### Different models
 
 **`K-Nearest Neighbors`**
 
-![image](pictures\neighbors.png)
+![image](pictures/neighbors.png)
 Total metrics:
 |            | Test (default) | Test (7 neighbors) |
 |------------|----------------|--------------------|
@@ -42,7 +42,7 @@ Total metrics:
 
 **`Logistic Regression`**
 
-![image](pictures\logreg.png)
+![image](pictures/logreg.png)
 Total metrics:
 |            | Test (default) | Test (GridSearchCV) |
 |------------|----------------|---------------------|
@@ -60,7 +60,7 @@ Total metrics:
 |  Accuracy: | 0.92           | 0.95                |
 
 Feature importance:
-![image](pictures\destree.png)
+![image](pictures/destree.png)
 
 ### Best model
 
